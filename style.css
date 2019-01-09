@@ -195,6 +195,11 @@ title {
     display: none;
     width: 100%;
 }
+
+#img_wrapper2 img{
+    display: none;
+    width: 100%;
+}
 #wrapper2 {
     width: 100%;
     height: 40vw;
@@ -1057,6 +1062,17 @@ div.sticky {
 
   }
         #wrapper{
+            display: none;
+  }
+}
+
+    @media only screen and (max-width: 770px) {
+       #img_wrapper2 img{
+            display: block;
+           width: 100%;
+
+  }
+        #wrapper2{
             display: none;
   }
 }
